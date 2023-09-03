@@ -1,0 +1,318 @@
+#homebg {
+    background-image: url("../component/img/الصيني.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+body {
+    font-family: serif;
+}
+
+#nabvar {
+    opacity: .7;
+}
+
+.nav-link {
+    color: rgb(9, 88, 178);
+}
+
+#afooter {
+    color: white;
+}
+
+#fs-3 {
+    font-size: 15px
+}
+
+.btn-secondary {
+    --bs-btn-hover-color: #898282;
+}
+
+.nav-link {
+    --bs-hover-color: white;
+}
+
+/* {
+    background-position: 500%;
+} */
+
+/* project */
+
+
+
+.about-section {
+    padding: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(18, 17, 17);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+
+
+#intro1 {
+
+    transform: scale(0.94);
+    animation: scale 30s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+.lead {
+    font-size: x-large;
+    font-family: fantasy;
+    position: relative;
+
+    text-transform: uppercase;
+    /* font-size: 2em; */
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #ff0000, #ff0000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 8s linear infinite;
+    -webkit-text-fill-color: rgba(246, 6, 6, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}
+
+
+.btn-secondary {
+
+
+    --bs-btn-hover-color: #898282;
+}
+
+.nav-link {
+    --bs-hover-color: white;
+}
+
+
+
+.prohead {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+
+#card-img-top-hp {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#card-hp {
+    border: none;
+    box-shadow: 10px 5px 5px black;
+    transition: 2s;
+    width: 400px;
+    height: 480px;
+    margin: 20px;
+}
+
+#card-hp:hover {
+    color: white;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#card-deck-hp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    ;
+}
+
+
+/*--------------------------------------------------------------
+# What We Do
+--------------------------------------------------------------*/
+.what-we-do .icon-box {
+    text-align: center;
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+}
+
+.what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #eaf4fb;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box .icon i {
+    color: #3498db;
+    font-size: 28px;
+}
+
+.what-we-do .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.what-we-do .icon-box h4 a {
+    color: #384046;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.what-we-do .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do .icon-box:hover h4 a,
+.what-we-do .icon-box:hover .icon i {
+    color: #3498db;
+}
+#sliderhomepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sliderhomepage h4{color: #000;}
+
+
+
+
+
+/* last edit */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+
+.custom-vertical-spacing {
+    margin-bottom: 20px; }

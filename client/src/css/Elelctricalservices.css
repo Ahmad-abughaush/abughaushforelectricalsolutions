@@ -1,0 +1,52 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-transform: capitalize;
+ }
+
+ body {
+     font-family: serif;
+ }
+
+
+
+ #card-img-top-ser {
+     height: 200px;
+     border-radius: 10px;
+ }
+
+ #card-ser {
+     border: none;
+     box-shadow: 10px 5px 5px black;
+     transition: 2s;
+     width: 400px;
+     height: 480px;
+     margin: 20px;
+ }
+
+ #card-ser:hover {
+     color: white;
+     background-color: black;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ #card-deck-ser {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     ;
+ }
+
+ /* Add this to your Eelectricalproducts.css or appropriate CSS file */
+ .content {
+     max-height: calc(100vh - 120px);
+     /* Adjust the value to leave space for the header and padding */
+     overflow-y: auto;
+     /* Add vertical scroll if content exceeds the height */
+ }
